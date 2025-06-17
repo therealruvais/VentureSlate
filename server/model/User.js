@@ -20,6 +20,12 @@ const userSchema = new mongoose.Schema({
     type: Boolean,
     required: true,
   },
+  ip: {
+    type: String,
+  },
+  location: {
+    type: String,
+  },
   createdAt: {
     type: Date,
     default: Date.now,
